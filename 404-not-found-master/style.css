@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.error-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.error-img{
+width: 400px;
+height: 300px;
+}
+.error-heading{
+font-size: 54px;
+font-weight: 700;
+}
+.error-title{
+    width: 381px;
+    color:  #4F4F4F;
+font-size: 24px;
+letter-spacing: -0.84px;
+margin: 30px 0px;
+}
+.error-btn{
+    width: 216px;
+height: 68px;
+background-color: black;
+color: white;
+}
+@media screen and (max-width:576px){
+    .error-section{
+        flex-direction: column;
+    }
+    .error-msg{
+        text-align: start;
+    }
+    .error-heading{
+        font-size: 35px;
+        }
+    .error-title{
+        width: 50%;
+        font-size: 15px;
+    }
+    .error-img {
+        width: 300px;
+        height: 300px;
+        margin-right: 189px;
+    }
+}
